@@ -1,0 +1,10 @@
+.texto-normal{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto-vermelho{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}

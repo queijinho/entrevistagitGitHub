@@ -1,3 +1,81 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+
+header #logo{
+    text-align: center;
+    padding-top: 9px;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+/*tataraneto*/
+nav ul li a {
+
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:hover {
+
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+#menu-lateral nav ul li {
+    padding-top: 9px;
+    font-size: 13px;
+}
+
+#menu-lateral{
+    float: left;
+}
+
+#area-principal {
+
+    width: 672px;
+    border: 4px solid rgb(0, 0, 0);
+    height: 370px;
+    margin-left: 165px;
+    margin-top: 10px;
+    
+
+
+}
 #comandos{
     background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 230px;
+    
+}
+
+
+
+#texto-rodape {
+    margin-top: 20px;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background-color: black;
+    color: #ffffff;
+    font-size: 12px;
+    height: 25px;
+    
+    
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.postit-laranja{
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgb(255, 0, 247);
 }

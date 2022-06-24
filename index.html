@@ -4,15 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de Git-GitHub</title>
+    <title>Escola Front-End Curso Git-GitHub</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+    #draggable { width: 150px; height: 150px; padding: 0.5em; }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#draggable" ).draggable();
+    } );
+    </script>
 </head>
 <body>
     <header>
-        Curso de Git-GitHub
-	    Comandos Ferramenta Avaliação Aulas Pdcast
+        <div id="logo">
+            <img src="logos/GitHub-Mark-Light-120px-plus.png" width="50"mar> 
+            <img src="logos/GitHub_Logo_White.png" width="120">
+        </div>
+    </header>
         <main>
-            <section id="comandos">
+            <section id="menu-lateral">
+                <nav>
+                    <ul>
+                        <li><a href="#"><img src="logos/menu.png" width="15px"> Mural </a></li>
+                        <li><a href="#"><img src="logos/configuracao.png" width="15px"> Configuração </a></li>
+                        <li><a href="#"><img src="logos/Aulas.png" width="15px"> Aulas</a></li>
+                        <li><a href="#"><img src="logos/podcast.png" width="13"> PodCast</a></li>
+                        <li><a href="#"><img src="logos/homework.png" width="15px"> Teste</a></li>
+                        <li><a href="#"><img src="logos/mind_map.png" width="15px"> Mapa Mental</a></li>
+                        <li><a href="#"><img src="logos/classroom.png" width="15px"> Classroom</a></li>
+                        <li><a href="#"><img src="logos/link.png" width="15px"> Links </a></li>
+                        <li><a href="#"><img src="logos/docs.png" width="15px"> Docs </a></li>
+                        <li><a href="#"><img src="logos/branch.png" width="15px"> Brachs</a></li>
+                        <li><a href="#"><img src="logos/Letter_D.png" width="15px"> DontPad</a></li>
+                        <li><a href="#"><img src="logos/YouTube_23392.png" width="15px"> YouTube</a></li>
+                        <li><a href="#"><img src="logos/linkedin.png" width="15px"> Linkedin</a></li>
+                        <li><a href="#"><img src="logos/Instagram.png" width="15px"> Instagram</a></li>
+                        <li><a href="#"><img src="logos/Whatsapp_37229.png" width="15px"> Whatsapp</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="area-principal">
+                <h1>Mural de avisos</h1>
+                <div class="postit-laranja ui-widget-content">
+                    Carreta 5G
+                </div>
+      
+                <div class="postit-laranja ui-widget-content">
+                  Laranja
+              </div>
+      
+              <div class="postit-laranja ui-widget-content">
+                Laranja
+            </div>
+              </section>
+            <!--<section id="comandos">
             Tabela de Comandos Git
                 <table border="1px">
                     <tr>
@@ -85,11 +136,11 @@
                         <td>git reverte coloque o hash do seu commit</td>
                     </tr>
                 </table>
-            </section>
+            </section>-->
         </main>
         <footer>
-		CursoGit-GitHub&copy 2022 - Matheus Rodrigues 
+            <p id="texto-rodape">CursoGit-GitHub&copy 2022 - Matheus Rodrigues</p>
 	</footer>
-    </header>
+    
 </body>
 </html>
